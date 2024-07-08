@@ -1,3 +1,5 @@
+
+
 class Ghost {
   constructor(
     scaledTileSize, mazeArray, pacman, name, level, characterUtil, blinky,
@@ -116,6 +118,7 @@ class Ghost {
     const bgSize = this.measurement * spriteFrames;
     this.animationTarget.style.backgroundSize = `${bgSize}px`;
   }
+  
 
   /**
    * Sets the default position and direction for the ghosts at the game's start

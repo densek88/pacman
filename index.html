@@ -18,16 +18,24 @@
       <div id='preload-div' class='preload-div'></div>
 
       <div id='main-menu-container' class='main-menu-container'>
+        <div class="scroll">
+          <div class="RightToLeft">
+            <p>AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA </p>
+            <p>AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA AWA </p>
+          </div>
+        </div>
         <img id='logo' class='logo' src='app/style/graphics/pacman_logo.png'>
         <button id='game-start' class='game-start btn-start'>
           PLAY
-        </button>
-        <button id='game-start' class='game-start btn-start'>
-          PLAY
-        </button>
+        </button><br><br><br>
+        <div class="container2">
+          <a href="https://t.me/PacmanAwaAwa" target="_blank" class="btn socials-start">TELEGRAM</a>
+          <a href="https://x.com/pacmanmemecoin/media" target="_blank" class="btn socials-start">X</a>
+        </div>
       </div>
 
       <div class='header-buttons'>
+        <button id="backButton">Back</button>
         <button>
           <i id='pause-button' class='material-icons'>
             pause
@@ -136,6 +144,10 @@
         window.onload = () => {
           let gameCoordinator = new GameCoordinator();
         }
+        document.getElementById('backButton').addEventListener('click', function() {
+  location.reload();
+});
+
       </script>
     </div>
   </body>
