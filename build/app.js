@@ -1272,6 +1272,7 @@ class GameCoordinator {
     }
     this.startGameplay(true);
   }
+  
 
   /**
    * Toggles the master volume for the soundManager, and saves the preference to storage
@@ -3204,4 +3205,3 @@ class Timer {
     }
   }
 }
-

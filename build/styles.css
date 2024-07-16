@@ -1,0 +1,126 @@
+* {
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.logo2 {
+    height: 200px;
+    margin-top: 2vh;
+}
+
+p{
+    font-size: 23px;
+}
+
+.homePage {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between columns */
+    padding: 20px;
+    max-width: 1200px; /* Standard container width */
+    width: 100%; /* Full width but limited by max-width */
+    margin: 0 auto; /* Center the container horizontally */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+.containerGame {
+    flex-wrap: wrap;
+    gap: 20px; /* Space between columns */
+    padding: 20px;
+    max-width: 1200px; /* Standard container width */
+    width: 100%; /* Full width but limited by max-width */
+    margin: 0 auto; /* Center the container horizontally */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.column {
+    flex: 1;
+    min-width: 250px; /* Minimum width of each column */
+    
+    padding: 20px;
+   
+    position: relative; /* For positioning the video inside column 1 */
+}
+
+.column-1 {
+background-color: #FFDDBA;
+  border: 5px solid #231f20;
+  border-radius: 10px;
+  box-shadow: 5px 5px #ee2a29;
+  color: #231f20;
+  cursor: pointer;
+  outline: none;
+    
+}
+
+.column-2 {
+  
+   
+}
+
+.video-container {
+    align-self: flex-end; /* Align video to the right */
+    width: 100%; /* Full width on small screens */
+    max-width: 350px; /* Adjust as needed */
+    margin-bottom: 20px; /* Space below the video */
+    background-color: #FFDDBA;
+  border: 5px solid #231f20;
+  border-radius: 10px;
+  box-shadow: 5px 5px #ee2a29;
+  color: #231f20;
+  cursor: pointer;
+  outline: none;
+    
+}
+
+.video-container video {
+    width: 100%; /* Make video responsive */
+    height: auto;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .video-container {
+        position: static; /* Reset positioning on mobile */
+        width: 100%; /* Full width of the column on mobile */
+        margin-bottom: 20px; /* Add space below the video */
+    }
+}
+
+.theGame{
+    text-align: center !important;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    /* Horizontally center the buttons */
+    align-items: center;
+    /* Vertically center the buttons */
+    height: 20vh;
+    /* Full height of the viewport */
+  }
+  .socials-start {
+    background-color: #FFDDBA;
+    border: 5px solid #231f20;
+    border-radius: 10px;
+    box-shadow: 5px 5px #ee2a29;
+    color: #231f20;
+    cursor: pointer;
+    font-size: 48px;
+    outline: none;
+    padding: 16px;
+  }
+  
+  .socials-start:active {
+    box-shadow: none;
+    transform: translateX(5px) translateY(5px);
+  }

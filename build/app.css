@@ -188,6 +188,10 @@ body {
   height: 200px;
   margin-top: 25vh;
 }
+.logo2 {
+  height: 200px;
+  margin-top: 2vh;
+}
 
 
 .scroll {
@@ -210,6 +214,9 @@ body {
 
 .RightToLeft {
   animation: RightToLeft 100s infinite linear;
+}
+.RightToLeft2 {
+  animation: RightToLeft 10s infinite linear;
 }
 
 .container2 {
@@ -584,4 +591,10 @@ body {
   50% {
     opacity: 1;
   }
+}
+
+.homePage{
+  background-color: black;
+  color: white;
+  text-align: center;
 }
